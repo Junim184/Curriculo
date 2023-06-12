@@ -63,6 +63,21 @@ p {
     }
 }
 
+@media screen and (max-width: 700px) {
+    header {
+        display: grid;
+        justify-content: space-between;
+        align-items: center;
+    
+        margin-left: 50px;
+        width: 75%;
+    }
+
+    p {
+        margin-top: 20%;
+    }
+}
+
 
 
 @font-face {
