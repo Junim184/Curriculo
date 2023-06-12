@@ -1,0 +1,75 @@
+body {
+    max-width: 1000px;
+
+    margin: 0 auto;
+
+    font-family: poppinsregular;
+
+    background: rgb(15,44,48);
+    background: linear-gradient(30deg, rgba(15,44,48,1) 0%, rgba(7,155,177,1) 100%);
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 50px;
+    width: 75%;
+
+}
+
+main {
+    display: grid;
+    align-items: center;
+}
+
+ul {
+    line-height: 25px;
+}
+
+li {
+    list-style: none;
+    color: rgb(227, 229, 230);
+}
+
+a {
+  color: #fff;
+}
+
+.line {
+    border: 0;
+    height: 2px;
+
+    margin-bottom: 5%;
+
+    background-image: linear-gradient(to right, transparent, #CCC, transparent);  
+}
+
+h1 {
+    text-align: center;
+    color: rgb(227, 229, 230);
+}
+
+p {
+    margin-top: 5%;
+    color: rgb(227, 229, 230);
+}
+
+@media screen and (max-width: 500px) {
+    .line {
+        margin-bottom: 10%;
+    }
+}
+
+
+
+@font-face {
+    font-family: 'poppinsregular';
+    src: url('./components/fonts/poppins-regular-webfont.woff2') format('woff2'),
+         url('./components/fonts/poppins-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  
+  }
